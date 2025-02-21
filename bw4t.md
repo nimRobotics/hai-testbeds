@@ -2,6 +2,11 @@
 
 # Blocks World for Teams (BW4T)
 
+![BW4T environment](docs/bw4t.png "Title")
+
+
+Blocks World for Teams (**BW4T**) is a testbed EIS environment for team coordination. BW4T allows for games with human-human, agent-agent and human-agent teams of variable sizes. The goal is to jointly deliver a sequence of colored blocks in a particular order as fast as possible. A complicating factor is that the players cannot see each other. ([source](https://github.com/rsverhagen94/TU-Delft-Collaborative-AI-Trust)).
+
 The environments works in all Operating Systems as long as it allows to run Python.
 
 ## Installation
