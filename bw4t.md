@@ -67,7 +67,7 @@ deactivate
 pip install -r requirements.txt
 ```
 
-Make sure to install `matrx==2.1.2` and replace the `state.py` file ("TU-Delft-Collaborative-AI-Trust_x/venv_py310/lib/python3.10/site-packages/matrx/agents/agent_utils/state.py") with the one provided in the repository.
+Make sure to install `matrx==2.1.2` and replace the `state.py` file ("TU-Delft-Collaborative-AI-Trust_x/venv_py310/lib/python3.10/site-packages/matrx/agents/agent_utils/state.py") with the one provided in the repository ([this file](https://github.com/nimRobotics/hai-testbeds/blob/master/state.py)).
 
 5. Run the BW4T environment with the following command:
 ```bash
