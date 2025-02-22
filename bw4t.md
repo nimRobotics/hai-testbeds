@@ -52,6 +52,11 @@ Activate the virtual environment with the following command:
 source bw4tenv/bin/activate
 ```
 
+For Windows, you can activate the virtual environment with the following command:
+```bash
+bw4tenv\Scripts\activate
+```
+
 to deactivate the virtual environment, run the following command:
 ```bash
 deactivate
@@ -69,9 +74,9 @@ Make sure to install `matrx==2.1.2` and replace the `state.py` file ("TU-Delft-C
 python main.py
 ```
 
-6. Open the browser and go to the following URL <http://localhost:3000/> to play the game.
+6. Open the browser and go to the following URL <http://localhost:3000/> to play the game. At the end of the game the logs are saved in `TU-Delft-Collaborative-AI-Trust_x/world_1` directory as timestamped csv files.
 
-7. The game setup and algorithms can be changed by modifying the files
+7. In-depth overview of the game can be found at [https://tracinsy.ewi.tudelft.nl/pubtrac/BW4T-Matrx-CollaborativeAI/wiki](https://tracinsy.ewi.tudelft.nl/pubtrac/BW4T-Matrx-CollaborativeAI/wiki). The game setup and algorithms can be changed by modifying the files
 - `main.py`: set specific game settings
 - `BW4TWorld.py` (TU-Delft-Collaborative-AI-Trust/bw4t/BW4TWorld.py): to change the appearance and the properties of the blocks
 - `BW4THumanBrain.py` (TU-Delft-Collaborative-AI-Trust/bw4t/BW4THumanBrain.py): to change the human player's behavior
