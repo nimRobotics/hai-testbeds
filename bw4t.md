@@ -83,7 +83,29 @@ python main.py
 - `BW4THumanBrain.py` (TU-Delft-Collaborative-AI-Trust/bw4t/BW4THumanBrain.py): to change the human player's behavior
 - `BW4TAgentBrain.py` (TU-Delft-Collaborative-AI-Trust/bw4t/BW4TAgentBrain.py): to change the agent's behavior
 
-## Usage
+## Task and Usage
 
-- The game can be played with human-human, agent-agent, and human-agent teams
-- The game can be played with variable team sizes
+The BW4T environment contains a number of objects of different shapes and colors in a number of rooms with doors. Each agent has limited visibility, but can navigate in the environment. The common goal of the agents in the world is to find blocks of desired colors and shapes, and deliver them to the “drop zone” to the right position in the right order. For example, in Figure 3, the goal is to deliver one blue rectangle object, one green circle object, and one green rectangle object, in that order. ([content source](https://www.studeersnel.nl/in/document/technische-universiteit-delft/collaborative-artificial-intelligence/collaborative-ai-bw4tassignment/35557479)).
+
+
+After running the game (`python main.py`), the game can be played by opening the browser and going to the following URL <http://localhost:3000/>. The game can be ended by closing the browser window. The logs are saved in `TU-Delft-Collaborative-AI-Trust_x/world_1` directory as timestamped csv files. At the start the landing page will look like the one shown in the figure below (Figure 2).
+
+![Start page of BW4T after launch](docs/bw4tstart.png "Title")
+
+The game can be started by clicking the triangle play button on the tob bar. With the god view the game looks like the one shown in the figure below (Figure 3), it shows the complete environment including all the agents and objects. 
+
+![God view](docs/godview.png "Title")
+
+The human view shows the view of the agent in the environment, it looks like the one shown in the figure below (Figure 4). Human can control character can be controlled using
+
+| Keyboard Letter | Effect           |
+|-----------------|------------------|
+| W, A, S, D      | Move agent       |
+| Q               | Grab an object   |
+| E               | Drop object      |
+| R               | Open a door      |
+| F               | Close a door     |
+
+Human view only allows to see the agent's view and not the complete environment. Human can only see the objects in the room by ONLY entering the room.
+
+![Human view](docs/humanview.png "Title")

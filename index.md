@@ -12,10 +12,10 @@ To install see the [BW4T instructions](https://nimrobotics.github.io/hai-testbed
 
 CREW is a platform designed to facilitate Human-AI teaming research, engage collaborations from multiple scientific disciplines, with a strong emphasis on human involvement. It includes pre-built tasks for cognitive studies and Human-AI teaming with expandable potentials from our modular design. Following conventional cognitive neuroscience research, CREW also supports multimodal human physiological signal recording for behavior analysis. ([source](https://generalroboticslab.github.io/crew-docs/index.html)).
 
-To install see the [CREW instructions](https://github.com/nimRobotics/hai-testbeds/blob/master/crew.md)
+To install see the [CREW instructions](https://nimrobotics.github.io/hai-testbeds/crew)
 
 ## T2D Human-AI Robot Teaming testbed
 
 The T2D Human-AI Robot Teaming testbed is a testbed for Human-AI Robot Teaming. The environment is designed in 3D with urban search and rescue in emergency environment. The robot can controlled with Wizard of Oz interface. ([source](https://dl.acm.org/doi/abs/10.1145/3610978.3640649)).
 
-To install see the [T2D instructions](t2d.md)
+To install see the [T2D instructions](https://nimrobotics.github.io/hai-testbeds/t2d)
