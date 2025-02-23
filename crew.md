@@ -10,5 +10,9 @@ This platform supports Windows, macOS, and Linux. However, macOS prebuilt game e
 
 Compreshensive installation guide can be found [https://generalroboticslab.github.io/crew-docs/getting_started/install.html](https://generalroboticslab.github.io/crew-docs/getting_started/install.html), make sure to follow them closely. Please reach out to Aakash if you face any issues.
 
-<!-- 1. Install docker desktop from [here](https://www.docker.com/products/docker-desktop)
-2.  -->
+1. Install docker desktop from [here](https://www.docker.com/products/docker-desktop)
+2. Install Anaconda from [here](https://www.anaconda.com/products/individual) or optionally you can install miniconda from [here](https://docs.conda.io/en/latest/miniconda.html)
+3. Clone the repository with the following command:
+```bash
+git clone https://github.com/generalroboticslab/CREW
+```
