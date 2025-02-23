@@ -2,8 +2,9 @@
 
 # Blocks World for Teams (BW4T)
 
-![BW4T environment](docs/bw4t.png "Title")
+[PDF version](https://nimrobotics.github.io/hai-testbeds/docs/bw4t.pdf)
 
+![BW4T environment](docs/bw4t.png "Title")
 
 Blocks World for Teams (**BW4T**) is a testbed EIS environment for team coordination. BW4T allows for games with human-human, agent-agent and human-agent teams of variable sizes. The goal is to jointly deliver a sequence of colored blocks in a particular order as fast as possible. A complicating factor is that the players cannot see each other. ([source](https://github.com/rsverhagen94/TU-Delft-Collaborative-AI-Trust)).
 
@@ -81,3 +82,8 @@ python main.py
 - `BW4TWorld.py` (TU-Delft-Collaborative-AI-Trust/bw4t/BW4TWorld.py): to change the appearance and the properties of the blocks
 - `BW4THumanBrain.py` (TU-Delft-Collaborative-AI-Trust/bw4t/BW4THumanBrain.py): to change the human player's behavior
 - `BW4TAgentBrain.py` (TU-Delft-Collaborative-AI-Trust/bw4t/BW4TAgentBrain.py): to change the agent's behavior
+
+## Usage
+
+- The game can be played with human-human, agent-agent, and human-agent teams
+- The game can be played with variable team sizes

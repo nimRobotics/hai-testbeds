@@ -1,5 +1,7 @@
 # CREW Human-AI Teaming testbed
 
+[PDF version](https://nimrobotics.github.io/hai-testbeds/docs/crew.pdf)
+
 ![CREW environment](docs/crew.png "Title")
 
 CREW is a platform designed to facilitate Human-AI teaming research, engage collaborations from multiple scientific disciplines, with a strong emphasis on human involvement. It includes pre-built tasks for cognitive studies and Human-AI teaming with expandable potentials from our modular design. Following conventional cognitive neuroscience research, CREW also supports multimodal human physiological signal recording for behavior analysis. ([source](https://generalroboticslab.github.io/crew-docs/index.html)).
