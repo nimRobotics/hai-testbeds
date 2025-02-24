@@ -78,6 +78,7 @@ python main.py
 
 The BW4T environment contains a number of objects of different shapes and colors in a number of rooms with doors. Each agent has limited visibility, but can navigate in the environment. The common goal of the agents in the world is to find blocks of desired colors and shapes, and deliver them to the “drop zone” to the right position in the right order. For example, in Figure 3, the goal is to deliver one blue rectangle object, one green circle object, and one green rectangle object, in that order. ([content source](https://www.studeersnel.nl/in/document/technische-universiteit-delft/collaborative-artificial-intelligence/collaborative-ai-bw4tassignment/35557479)).
 
+**AI/Robot control**: The default AI/Robot control is implemented in the `BW4TAgentBrain.py` and it uses the A* algorithm to find the shortest path to the object and deliver it to the drop zone.
 
 After running the game (`python main.py`), the game can be played by opening the browser and going to the following URL <http://localhost:3000/>. The game can be ended by closing the browser window. The logs are saved in `TU-Delft-Collaborative-AI-Trust_x/world_1` directory as timestamped csv files. At the start the landing page will look like the one shown in the figure below (Figure 2).
 

@@ -23,6 +23,8 @@ This test environment only supports Windows out of the box. However, if needed i
 
 The goal of the participants is to find the maximum victims in the virtual environment and tag their locations in a given time frame (3 minutes). The participants can use the keyboard to navigate their avatar in the environment. The team is told to work together to find the maximum number of victims in the environment. The team is interdependent since only safety officer can see the hazards and only the robot navigator has abillity to see the potential victims locations. The mission commander has the ability to tag the victims. The team needs to communicate and coordinate to find the maximum number of victims in the environment.
 
+**AI/Robot control**: the robot in this testbed is controlled by the Wizard of Oz interface. The Wizard of Oz (WoZ) method is a technique used in robotics research, particularly for evaluating human-robot interaction (HRI). In this method, a human "wizard" (operator) is hidden from the user and controls the robot’s behavior remotely or manually without the user’s knowledge. The user believes they are interacting with an autonomous robot, but the robot's actions are actually being driven by the wizard. This approach allows researchers to study how users would interact with an autonomous system before the technology is fully developed.
+
 ### Directory structure
 
 The provided project [link](https://uwprod-my.sharepoint.com/:f:/g/personal/aakash2_wisc_edu/Evzo1Q_5RXlNsgCjv97ZiioBl3vu7bUQQs1nrRLx3dWdmQ?e=a9gB2Z) contains two folder (see Figure 2):
