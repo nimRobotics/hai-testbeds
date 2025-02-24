@@ -18,20 +18,16 @@ For macOS, you can install Python 3.10 using Homebrew with the following command
 ```bash
 brew install python@3.10
 ```
-
 For Windows, you can download the installer from the [official website](https://www.python.org/downloads/windows/).
-
 For Ubuntu, you can install Python 3.10 using the following commands:
 ```bash
 sudo apt update
 sudo apt install python3.10
 ```
-
 Test if the installation was successful by running the following command:
 ```bashx 
 python --version 
 ```
-
 
 2. Download the BW4T environment from [here](https://github.com/rsverhagen94/TU-Delft-Collaborative-AI-Trust) or clone the repository with the following command:
 ```bash
@@ -42,22 +38,18 @@ git clone https://github.com/rsverhagen94/TU-Delft-Collaborative-AI-Trust
 ```bash
 python -m venv bw4tenv
 ```
-
 or you also specify the exact python version with the following command:
 ```bash
 /opt/homebrew/bin/python3.10 -m venv bw4tenv
 ```
-
 Activate the virtual environment with the following command:
 ```bash
 source bw4tenv/bin/activate
 ```
-
 For Windows, you can activate the virtual environment with the following command:
 ```bash
 bw4tenv\Scripts\activate
 ```
-
 to deactivate the virtual environment, run the following command:
 ```bash
 deactivate
@@ -67,7 +59,6 @@ deactivate
 ```bash
 pip install -r requirements.txt
 ```
-
 Make sure to install `matrx==2.1.2` and replace the `state.py` file ("TU-Delft-Collaborative-AI-Trust_x/venv_py310/lib/python3.10/site-packages/matrx/agents/agent_utils/state.py") with the one provided in the repository ([this file](https://github.com/nimRobotics/hai-testbeds/blob/master/state.py)).
 
 5. Run the BW4T environment with the following command:
@@ -90,11 +81,11 @@ The BW4T environment contains a number of objects of different shapes and colors
 
 After running the game (`python main.py`), the game can be played by opening the browser and going to the following URL <http://localhost:3000/>. The game can be ended by closing the browser window. The logs are saved in `TU-Delft-Collaborative-AI-Trust_x/world_1` directory as timestamped csv files. At the start the landing page will look like the one shown in the figure below (Figure 2).
 
-![Start page of BW4T after launch](docs/bw4tstart.png "Title")
+![Start page of BW4T after launch](docs/bw4tstart.png)
 
 The game can be started by clicking the triangle play button on the tob bar. With the god view the game looks like the one shown in the figure below (Figure 3), it shows the complete environment including all the agents and objects. 
 
-![God view](docs/godview.png "Title")
+![God view](docs/godview.png)
 
 The human view shows the view of the agent in the environment, it looks like the one shown in the figure below (Figure 4). Human can control character can be controlled using
 
@@ -108,4 +99,4 @@ The human view shows the view of the agent in the environment, it looks like the
 
 Human view only allows to see the agent's view and not the complete environment. Human can only see the objects in the room by ONLY entering the room.
 
-![Human view](docs/humanview.png "Title")
+![Human view](docs/humanview.png)

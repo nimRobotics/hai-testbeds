@@ -2,7 +2,7 @@
 
 [PDF version](https://nimrobotics.github.io/hai-testbeds/docs/t2d.pdf)
 
-![T2D environment](docs/t2d.png "Title")
+![T2D environment](docs/t2d.png)
 
 The T2D Human-AI Robot Teaming testbed is a testbed for Human-AI Robot Teaming. The environment is designed in 3D with urban search and rescue in emergency environment. The robot can controlled with Wizard of Oz interface. ([source](https://dl.acm.org/doi/abs/10.1145/3610978.3640649)). The original tasked is aimed at three membered team (mission commander, robot navigator, safety officer) but can be played any number of agents.
 
@@ -20,4 +20,6 @@ This test environment only supports Windows out of the box. However, if needed i
 - Game logs are saved in the `LOGS` directory at the desktop.
 
 ## Usage
+
+
 
