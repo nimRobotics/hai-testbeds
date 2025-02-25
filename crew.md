@@ -12,9 +12,10 @@ This platform supports Windows, macOS, and Linux. However, macOS prebuilt game e
 
 Compreshensive installation guide can be found [https://generalroboticslab.github.io/crew-docs/getting_started/install.html](https://generalroboticslab.github.io/crew-docs/getting_started/install.html), make sure to follow them closely. Please reach out to Aakash if you face any issues.
 
-1. Install docker desktop from [here](https://www.docker.com/products/docker-desktop)
-2. Install Anaconda from [here](https://www.anaconda.com/products/individual) or optionally you can install miniconda from [here](https://docs.conda.io/en/latest/miniconda.html)
-3. Clone the repository with the following command:
-```bash
-git clone https://github.com/generalroboticslab/CREW
-```
+Once everything is installed, we can run the game with following steps:
+
+1. Lauch [docker desktop](https://www.docker.com/products/docker-desktop)
+2. Navigate to `crew-dojo/Nakama/` and run `bash run.sh`. This should run the nakama server and it is viewable at [http://127.0.0.1:7351](http://127.0.0.1:7351) The default username is `admin`. Default password is `password`.
+3. Activate the conda environment with `conda activate crew`. If you face any issues make sure to add the path to the conda environment to your `~/.bash_profile` with `echo export PATH="/Users/nimrobotics/.local/bin:$PATH" >> ~/.bash_profile` and then run `source ~/.bash_profile`
+4. Navigate to `crew-dojo/Builds` and a game of your choice, double click to run OR `open Unity.app` from the terminal.
+5. To change game parameters, you can run `open Unity.app --args -DisableFirstCamera -DisableAccumuCamera` or `open Unity.app --args -DojoRecording -DojoRecordingFile YOURFILEPATH`. See [here](https://generalroboticslab.github.io/crew-docs/dojo/components/games/nvn_hide_and_seek.html) for a list of all possible parameters.
