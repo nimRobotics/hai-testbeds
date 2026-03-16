@@ -10,7 +10,7 @@ This test environment only supports Windows out of the box. However, if needed i
 
 ## Installation
 
-- No installation is required. The testbed is available for download from the [here](https://uwprod-my.sharepoint.com/:f:/g/personal/aakash2_wisc_edu/Evzo1Q_5RXlNsgCjv97ZiioBl3vu7bUQQs1nrRLx3dWdmQ?e=a9gB2Z) (Note: this link is only accessible with a UW-Madison email address).
+- No installation is required. The testbed is available for download from the [https://drive.google.com/uc?export=download&id=1rvbBU6_Rb7HSQe6va5CXBmktGQ_eBBTA](https://drive.google.com/uc?export=download&id=1rvbBU6_Rb7HSQe6va5CXBmktGQ_eBBTA).
 - Prebuilt trials are availbe in `prebuilt` directory and can be run with double clicking `test3.exe` file withing a trial.
 - Several trials are provided (each trial differs in the position of the victims).
 - One agent will need to create the room by clicking `create` button and other agents can join the room by clicking `join` button (make sure the created and joined rooms have same names)
